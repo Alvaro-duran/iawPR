@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif;
+
+}
+aside {
+    position: fixed;
+    left: 0;
+    width: 200px;
+    top: 0;
+    background-image: url("img/textura.jpg");
+    bottom: 0;
+
+}
+#lat{
+    border:1px solid white;
+
+
+
+}
+#lat button:hover{
+    background-color: black;
+
+
+}
+#lat button{
+    text-align: center;
+    border:1px solid white;
+    border-radius:20px;
+    font-size:20px;
+    margin-left: 10px;
+
+}
+section{
+    position: fixed;
+    background-color: black;
+    left:201px;
+    top: 0;
+    width: 200px;
+
+
+
+}
+button{
+    color: white;
+    position: fixed;
+    left: 5px;
+    background-color: black;
+    border
+
+}
+#fondo{
+    position:fixed;
+    left:200px;
+    top:0;
+    right:0;
+    bottom:0;
+    overflow:auto;
+    padding:20px;
+    width: 100%;
+}

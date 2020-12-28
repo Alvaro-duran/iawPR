@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,300&display=swap');
+
+body{
+    font-family: alegreya sans sans-serif;
+    color: white;
+    background-color: black;
+    background:url("img/estatua-dcha.jpg") ;
+    background-size: 40%;
+    background-position:center left;
+}
+h1 {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+
+
+}
+#titu{
+    background-color: #e9e5d7;
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+h2{
+    background-color: darkgrey;
+    text-align: center;
+    font-family: lato sans-serif;
+}
+p{
+    font-family: alegreya sans sans-serif;
+
+}
+#tabla{
+    text-align: center;
+
+td:nth-child(odd) {
+    background-color:darkgrey;
+}
+
+td:nth-child(even) {
+    background-color: white;}
+th{
+color: white;
+background-color: black;
+}
+
+article{
+    border: 10px solid black;
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+}
+#formulario{
+    background-color: #e9e5d7;
+    margin: auto;
+    width: auto;
+    height: auto;
+}

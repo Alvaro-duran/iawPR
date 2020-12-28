@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+
+}
+
+nav{
+    position: fixed;
+    width: 200px;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    text-align: center;
+
+    background-image: url("img/2bd907267da69630eec483c2121f983f.jpg");
+    background-repeat: repeat;
+    padding-top:2em;
+}
+
+main{
+    position: fixed;
+    left: 200px;
+    top:0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:90% auto;
+}
+button{
+    border-radius: 50px;
+    margin: 7px;
+    font-size: 1.5em ;
+    background-color: rgb(0 , 0 , 0 , 0.5);
+    padding: .5em;
+
+}
+button:hover{
+    background-color: white;
+}

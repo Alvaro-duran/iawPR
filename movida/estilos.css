@@ -1,0 +1,65 @@
+
+body{
+    background-color: orange;
+}
+main{
+    background-color: black;
+    position: fixed;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom:250px;
+    width: auto;
+    text-align: center;
+}
+
+
+nav{
+
+    background-color: green;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 700px;
+    bottom:12px;
+    width: auto;
+    text-align: center;
+
+}
+#texto{
+    position: absolute;
+    right: 10px;
+    left: 10px;
+    bottom: 500px;
+    top:10px;
+    background-color: #1c7430;
+    font-family: sans-serif ;
+    font-size: xx-large;
+}
+#ima{
+    position: absolute;
+    right: 10px;
+    left: 10px;
+    bottom: 10px;
+    top:100px;
+    background-color: #0c5460;
+    background-position:center center;
+    background-size: 90% auto;
+    background-repeat: no-repeat;
+
+
+}
+button{
+    border-radius: 2em;
+    background-color: rgb(0,0,0,0.5);
+    color: white;
+    top: 5px;
+    font-size: 2.4em;
+}
+main.ampliar{
+    left:0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    background-color: white;
+}

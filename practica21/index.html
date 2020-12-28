@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario para las jornadas de seguridad</title>
+	<style>
+		table{
+			border-collapse: collapse;
+			border:1px solid black;
+		}
+		th,td{
+					 border:1px solid black;
+				 }
+	</style>
+</head>
+<body>
+	<form action="http://jorgesanchez.net/practicas/iaw/practicaR01/recogida.php"
+		method="GET">
+
+		<table>
+			<thead>
+				<tr>
+					<th colspan="2">
+						<h1>Registro de asistentes a las Jornadas de seguridad</h1>
+					</th>				
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td rowspan="2">
+						<img src="cartel.jpg" alt="Jornadas de Seguridad-Salesianos Villamuriel" style="height:500px;">					
+					</td>
+					<td>
+						<label for="dni">DNI *</label>
+						<input type="text" maxlength="9" size="9" name="dni" pattern="[XYZ0-9][0-9]{7}[A-Z]" id="dni"
+                               required /><br>
+						<label for="nombre">Nombre *</label>
+						<input type="text" maxlength="25" name="nombre" id="nombre" required /><br>
+						<label for="apellidos">Apellidos *</label>
+						<input type="text" maxlength="50" name="apellidos" id="apellidos" required /><br>
+						<label for="fecha">fecha de nacimiento</label>
+						<input type="date" name="fecha" id="fecha"/><br>
+						<hr>
+						<label for="comunidad">Comunidad Autónoma de Procedencia</label>
+						<select name="comunidad" id="comunidad" >
+							<option value="Andalucia">Andalucia</option>
+							<option value="Aragon">Aragón</option>
+							<option value="Asturias">Asturias</option>
+							<option value="Baleares">Baleares</option>
+							<option value="Canarias">Canarias</option>
+							<option value="Cantabria">Cantabria</option>
+							<option value="Castilla y León">Castilla y León</option>
+							<option value="Castilla La Mancha">Castilla La Mancha</option>
+							<option value="Catalunya">Cataluña</option>
+							<option value="Ceuta">Ceuta</option>
+							<option value="Extremadura">Extremadura</option>
+							<option value="Galicia">Galicia</option>
+							<option value="La Rioja">La Rioja</option>
+							<option value="Madrid">Madrid</option>
+							<option value="Melilla">Melilla</option>
+							<option value="Murcia">Murcia</option>
+							<option value="Navarra">Navarra</option>
+							<option value="Euskadi">País Vasco</option>
+							<option value="Valencia">Valencia</option>
+						</select>	
+						<br>
+						<fieldset> 
+							<legend>Institución de origen</legend>
+							<table>
+								<tr>
+									<td>
+										<fieldset>
+										<legend>Tipo de institución</legend>
+										   <input type="radio" name="tipo" value="Centro Educativo" />Centro educativo<br>
+										   <input type="radio" name="tipo" value="Institución Pública" />Institución pública <br>
+										   <input type="radio" name="tipo" value="Empresa Privada" />Empresa privada<br>
+										   <input type="radio" name="tipo" value="Otros / Independientes" />Otros / Independiente<br>
+										</fieldset>
+									</td>
+									<td>
+										<label for="nombreinst">Nombre de la institución</label><br>
+										<input type="text" name="nombreinst" id="nombreinst" maxlength="30" size="35"/><br>
+										<label for="dirinst">Dirección de la institución</label><br>
+										<textarea name="dirinst" id="dirinst" cols="30" rows="3"></textarea>
+									</td>
+								</tr>
+							</table>
+						</fieldset>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Enviar datos <input type="submit">
+					</td>
+				</tr>
+				<tr>
+					<th colspan="2">
+						<address>Centro Don Bosco, paseo Don Bosco 1: 34190, Villamuriel de cerrato <br>
+							Tlfno: 979 77 72 70</address>
+					</th>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</body>
+</html>

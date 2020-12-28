@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="56192f60-9d10-4728-9cb1-652b78828443" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1X29GHi80wRPhcGk1J5kHV6WZV4" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ALVARO DURAN\WebstormProjects\movida\img" />
+      <recent name="C:\Users\ALVARO DURAN\WebstormProjects\practica21" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ALVARO DURAN\WebstormProjects\practica12" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebstormProjects/directorioJ/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="archivo.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/java/archivo.js" working-dir="$PROJECT_DIR$/java">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.archivo.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56192f60-9d10-4728-9cb1-652b78828443" name="Default Changelist" comment="" />
+      <created>1580233224634</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580233224634</updated>
+      <workItem from="1580233225789" duration="793000" />
+      <workItem from="1580234035672" duration="4042000" />
+      <workItem from="1582733115926" duration="2081000" />
+      <workItem from="1582822554226" duration="4144000" />
+      <workItem from="1583945783388" duration="2536000" />
+      <workItem from="1584516100325" duration="4056000" />
+      <workItem from="1584706682613" duration="3388000" />
+      <workItem from="1585121275389" duration="1413000" />
+      <workItem from="1585225388156" duration="3214000" />
+      <workItem from="1585243021737" duration="4876000" />
+      <workItem from="1585300601756" duration="7118000" />
+      <workItem from="1585324306234" duration="2303000" />
+      <workItem from="1585416822580" duration="1500000" />
+      <workItem from="1585418424977" duration="8079000" />
+      <workItem from="1585501050781" duration="719000" />
+      <workItem from="1585583129883" duration="6908000" />
+      <workItem from="1585644250188" duration="1123000" />
+      <workItem from="1585723348846" duration="2090000" />
+      <workItem from="1586526634927" duration="7844000" />
+      <workItem from="1586699733388" duration="1978000" />
+      <workItem from="1586706425328" duration="673000" />
+      <workItem from="1586936603402" duration="246000" />
+      <workItem from="1586936870034" duration="1260000" />
+      <workItem from="1587122994104" duration="2816000" />
+      <workItem from="1587536779344" duration="1861000" />
+      <workItem from="1588141700249" duration="6007000" />
+      <workItem from="1588512869727" duration="7702000" />
+      <workItem from="1588621278017" duration="385000" />
+      <workItem from="1588746608331" duration="1798000" />
+      <workItem from="1588780469681" duration="26000" />
+      <workItem from="1588934110352" duration="5768000" />
+      <workItem from="1589958922729" duration="4216000" />
+      <workItem from="1590563567395" duration="2780000" />
+      <workItem from="1590861019975" duration="203000" />
+      <workItem from="1590861239689" duration="303000" />
+      <workItem from="1591112476599" duration="10892000" />
+      <workItem from="1591198247619" duration="3558000" />
+      <workItem from="1591255797128" duration="764000" />
+      <workItem from="1591285742853" duration="7772000" />
+      <workItem from="1591303281146" duration="1312000" />
+      <workItem from="1591349385917" duration="7894000" />
+      <workItem from="1591804001482" duration="9595000" />
+      <workItem from="1591890723474" duration="8443000" />
+      <workItem from="1591947127432" duration="4505000" />
+      <workItem from="1592065150704" duration="4000" />
+      <workItem from="1592130107165" duration="564000" />
+      <workItem from="1592153486490" duration="5441000" />
+      <workItem from="1592236358587" duration="9774000" />
+      <workItem from="1592294213256" duration="11963000" />
+      <workItem from="1599218845197" duration="2128000" />
+      <workItem from="1601836737516" duration="335000" />
+      <workItem from="1606848324237" duration="162000" />
+      <workItem from="1606924426966" duration="1936000" />
+      <workItem from="1607019168716" duration="18000" />
+      <workItem from="1607449790754" duration="610000" />
+      <workItem from="1607636033145" duration="1549000" />
+      <workItem from="1609144040191" duration="1880000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

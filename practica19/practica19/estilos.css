@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush');
+body{
+	font-size:12px;
+	background-color:black;
+	color:white;
+}
+
+section{
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#s1{
+	background-image: url(img/fondo1.jpg);
+}
+#s2{
+	background-image: url(img/fondo2.jpg);
+}
+
+h1{
+	font-family: 'Alex Brush',cursive;
+	font-size: 8em;
+	text-align: center;
+	margin:0;
+	color:#ff5454;
+	border-bottom:1px solid #ff5454;
+
+}
+
+section p,section ul{
+	font-family: 'Architects Daughter', cursive;
+	font-size:2em;
+	text-shadow: 4px 4px 3px black;
+	border-width: 70px;
+	border-image: url(img/marco.png) 90 90 round;
+	background-color:rgba(0,0,0,.5);
+}
+
+section p:nth-of-type(odd){
+	margin:50px 200px 50px 400px;
+}
+section p:nth-of-type(even){
+	margin:50px 400px 50px 200px;
+}
+section ul{
+	margin:50px auto;
+	width:500px;
+}
+
+section p:first-letter{
+	font-size:4em;
+	font-family:  'Alex Brush',cursive;
+}
+section p:nth-of-type(odd):first-letter {
+	color:#5397c6;
+}
+section p:nth-of-type(even):first-letter {
+	color:#ff867b;
+}
+
+section ul{
+	list-style-type: square;
+}
+
+section li{
+	list-style-image: url(img/guion.png);
+}
+
+.lobo{
+	color: #5397c6;
+}
+
+.caperucita{
+	color: #ff867b;
+}
+
+.narrador{
+	color:gray;
+}
+
+section p:hover:first-letter{
+	color:white;
+}
+
+/************ Formulario ******/
+.form{
+	margin:auto;
+	font-family: 'Alex Brush',cursive;
+	font-size:2.5em;
+	width:300px;
+	margin-top:1em;
+
+}
+
+input[type="checkbox"]{
+	display:none;
+}
+
+label{
+	background-image:url(img/off.png);
+	background-repeat: no-repeat;
+	padding-left:40px;
+
+}
+
+input[type="checkbox"]:checked + label{
+	background-image:url(img/on.png);
+}
+
+
+
+
+button{
+	font-size:1.25em;
+	background-color:#5397c6;
+	margin-top:30px;
+	font-family: 'Architects Daughter', cursive;
+	color:white;
+	border-radius: 10px;
+	width:100%;
+}
+
+button:hover{
+	background-color:#ff5454;
+}

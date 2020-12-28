@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>p30</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<section id="fondo">
+    <div id="texto" data-pos="10">Hola</div>
+    <link rel="stylesheet" href="estilos.css">
+</section>
+<section id="control">
+    <form action="#">
+        <label for="color">Color de la letra</label>
+        <input type="color" id="color" name="color" value="#FFFFFF">
+        <label for="iTexto">Texto</label>
+        <input type="text" id="iTexto" name="iTexto" value="Hola"><br>
+        <span>Fondo:</span>
+        <input type="radio" id="carretera" name="fondo" min="1" max="20" value="carretera">
+        <label for="carretera">Carretera</label>
+        <input type="radio" id="montana" name="fondo" value="montana">
+        <label for="montana">Montaña</label>
+        <input type="radio" id="muro" name="fondo" value="muro">
+        <label for="muro">Muro</label>
+        <input type="radio" id="puente" name="fondo" checked value="puente">
+        <label for="puente">Puente</label><br>
+        <button id="subir">Subir</button>
+        <button id="bajar">Bajar</button>
+    </form>
+</section>
+<script src="../jquery/jquery.js"></script>
+<script src="accion.js"></script>
+</body>
+</html>

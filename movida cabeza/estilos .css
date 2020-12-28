@@ -1,0 +1,53 @@
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: orange;
+    height: 60px;
+    width: 100%;
+
+}
+
+header h1 {
+    margin: 0 0 0 8px;
+    letter-spacing: 12px;
+}
+
+#imagenes {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    height: 500px;
+    top: 60px;
+    background-color: mistyrose;
+
+
+}
+
+footer {
+    background-color: saddlebrown;
+    width: 100%;
+    left: 0;
+    position: fixed;
+    top:560px;
+    bottom: 0;
+    text-align: center;
+
+
+}
+footer h2{
+    display: inline-block;
+}
+#pri{
+    background-image: url("img/inicio.png");
+
+}
+#ant{
+    background-image:url("img/izquierda.png") ;
+}
+#sig{
+    background-image: url("img/derecha.png");
+}
+#ult{
+    background-image: url("img/fin.png");
+}

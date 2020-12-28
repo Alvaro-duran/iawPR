@@ -1,0 +1,143 @@
+*{
+    font-family: Verdana;
+}
+
+main{
+    position: fixed;
+    background: #505050;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+
+}
+
+#cabecera{
+    position: absolute;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.51);
+    top:335px;
+    bottom: 350px;
+    left:0;
+    right: 0;
+    color:#505050;
+}
+#cabecera button{
+    color: #e96a53;
+    border-radius:1.5em ;
+    outline: none;
+    background-color: transparent;
+    width: 400px;
+    border:1px solid #e96a53; ;
+}
+
+#cabecera h1{
+    font-size: 50px;
+    color:#505050;
+
+}
+
+#cabecera h2 {
+    font-size: 20px;
+}
+
+
+
+
+body{
+    background-image: url("img/fondo.png");
+    background-size: cover;
+    background-color:#404040 ;
+}
+section{
+    border-right:1px solid white;
+
+}
+#js{
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   width: 33%;
+   left: 0;
+   right: 0;
+    display: none;
+
+}
+#js2 {
+    position: absolute;
+    left: 25px;
+}
+
+
+
+
+
+
+#py{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 33%;
+    left: 33%;
+    right: 0;
+    display: none;
+}
+#py2{
+    position: absolute;
+    left: 10px;
+}
+
+#ja{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 35%;
+    left: 68%;
+    right: 0;
+    display: none;
+
+}
+#ja2{
+    position: absolute;
+    left: 15px;
+}
+
+q{
+   color: #e96a53;
+    font-style: italic;
+    font-family: Calibri;
+    quotes: none;
+}
+section h2{
+    color:#505050 ;
+}
+p{
+    color: white;
+}
+section h1{
+    color: white;
+}
+em{
+    color:#e96a53;
+}
+img{
+    position: absolute;
+    left:4px;
+    right: 4px;
+    width: 85%;
+    top: 600px;
+    bottom: 15px;
+
+}
+a{
+    text-decoration: none;
+}
+section p {
+
+}
+small{
+    color: #e96a53 ;
+    font-size: 0.75em;
+
+}
